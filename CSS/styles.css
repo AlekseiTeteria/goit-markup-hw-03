@@ -1,6 +1,9 @@
-.main {
+.body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  text-decoration: none;
+  white-space: normal;
+  color: rgb(255, 255, 255, 1);
 }
 /*home  */
 .blok_li {
@@ -18,53 +21,22 @@
   font-weight: 700;
   font-size: 26px;
   color: rgba(0, 0, 0, 1);
-  text-decoration: none;
 }
 .general_1 {
   font-weight: 500;
   font-size: 14px;
   color: rgba(33, 150, 243, 1);
-  text-decoration: none;
   line-height: 1.1;
-  white-space: normal;
 }
 .general_2 {
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(117, 117, 117, 1);
-  text-decoration: none;
-  line-height: 1.1;
-  white-space: normal;
-}
-.general {
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  text-decoration: none;
-  line-height: 1.1;
-  white-space: normal;
-}
-/*Title  */
-.title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  color: rgb(255, 255, 255, 1);
-  display: inline-table;
-  letter-spacing: 0.06em;
-}
-.button {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
   cursor: pointer;
   letter-spacing: 0.06em;
   vertical-align: bottom;
+  color: rgb(255, 255, 255, 1);
 }
 /*Main section  */
 .main_section_1 {
@@ -120,30 +92,21 @@
   font-weight: 700;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
-  text-decoration: none;
 }
 .logo4 {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  color: rgb(255, 255, 255, 1);
-  text-decoration: none;
 }
 .footer_adress {
   font-weight: 400;
   font-size: 14px;
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-  white-space: normal;
   font-style: normal;
 }
 .email_telephone_footer {
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  white-space: normal;
-  font-style: normal;
 }
 /*portfolio  */
 .filter-button1 {
@@ -151,7 +114,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 1);
   background: rgba(33, 150, 243, 1);
   cursor: pointer;
   letter-spacing: 0.03em;
