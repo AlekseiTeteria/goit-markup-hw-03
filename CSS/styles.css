@@ -5,54 +5,90 @@
   white-space: normal;
   color: rgb(255, 255, 255, 1);
 }
-/*home  */
-.blok_li {
+/* утилиты */
+.list {
+  padding: 0;
+  margin: 0;
   list-style: none;
-  list-style-type: none;
+}
+/*home  */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+}
+.nav-item {
+  margin-right: 50px;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: rgba(33, 33, 33, 1);
+}
+.link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
+  color: rgba(117, 117, 117, 1);
+}
+.link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+/*Mein nav*/
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 .logo1 {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   color: rgba(33, 150, 243, 1);
+  text-decoration: none;
 }
 .logo2 {
   font-weight: 700;
   font-size: 26px;
   color: rgba(0, 0, 0, 1);
 }
-.general_1 {
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 150, 243, 1);
-  text-decoration: none;
-  line-height: 1.1;
-}
-.general_2 {
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(117, 117, 117, 1);
-  text-decoration: none;
-  line-height: 1.1;
-}
-.general {
-  font-weight: 500;
-  font-size: 14px;
-  color: rgba(33, 33, 33, 1);
-  text-decoration: none;
-  line-height: 1.1;
-}
+
 /*Title  */
-.title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
+.hero {
+  width: 1200px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(47, 48, 58, 1);
   text-align: center;
-  color: rgb(255, 255, 255, 1);
-  display: inline-table;
-  letter-spacing: 0.06em;
 }
-.button {
+.hero-title {
+  font-weight: 900px;
+  font-size: 44px;
+  line-height: 1.36;
+  color: rgb(255, 255, 255, 1);
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding-top: 200px;
+}
+.hero .button {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
@@ -63,25 +99,29 @@
   cursor: pointer;
   letter-spacing: 0.06em;
   vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px 34px;
+  display: inline-block;
 }
 /*Main section  */
+.feature-list {
+  display: flex;
+}
+.items {
+  width: 270px;
+  margin-right: 30px;
+  margin-top: 94px;
+}
+.items:nth-child(4) {
+  margin-right: 0px;
+}
+
 .main_section_1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
   color: rgba(33, 33, 33, 1);
-}
-.button {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  color: rgba(255, 255, 255, 1);
-  background: rgba(33, 150, 243, 1);
-  cursor: pointer;
-  letter-spacing: 0.06em;
-  vertical-align: bottom;
 }
 .main_section_1_2 {
   font-weight: 400;
@@ -89,40 +129,76 @@
   line-height: 1.7;
   color: rgba(117, 117, 117, 1);
 }
-
-/*work section  */
-.work {
+/* Чем мы занимаемя  */
+.doing {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5f4fa;
+}
+.blok_li {
+  display: flex;
+}
+.blok_li {
+  width: 370px;
+  margin-right: 30px;
+}
+.doing .title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   line-height: 1.1;
   color: rgba(33, 33, 33, 1);
-  display: inline-table;
+  margin-bottom: 50px;
+}
+
+.photo {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 /*Command section  */
-.command_general {
+.team {
   font-weight: 700;
   font-size: 36px;
   color: rgba(33, 33, 33, 1);
   text-align: center;
   display: inline-table;
 }
-.command_1 {
+.blok_li_list {
+  font-weight: bold;
+}
+.team .title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.blok_li_list {
+  display: flex;
+}
+.photos {
   height: 260px;
   width: 270px;
 }
-.command_1_2 {
+.doing .name {
   font-weight: 500;
   font-size: 16px;
   font-style: medium;
   color: rgba(33, 33, 33, 1);
   line-height: 1.2;
 }
-.command_1_3 {
+.doing .profession {
   font-weight: 400;
   font-size: 16px;
   color: rgba(117, 117, 117, 1);
   line-height: 1.2;
+}
+.work {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 /*footer  */
 .logo3 {
